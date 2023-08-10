@@ -1,3 +1,5 @@
+import Logo from "../widgets/Logo";
+
 function Header() {
 
   // TODO: later routes will be added here
@@ -17,20 +19,18 @@ function Header() {
   ];
 
   return (
-    <header className="bg-green-300 py-8">
+    <header className="py-8">
       {/* Logo and name */}
       <div className="self flex justify-center items-center">
         {/* Logo */}
-        <div className="tamara-logo  relative bg-black w-[80px] h-[100px] block rounded-[50%/50%] -rotate-45">
-          <div className="absolute bg-amber-100 w-[70px] h-[90px] rounded-[50%/50%] rotate-17 bottom-0 left-7"></div>
-        </div>
+        <Logo/>
 
         {/* Name */}
-        <div className="name ml-6 text-left">
-          <h1 className="text-lg font-semibold text-white uppercase leading-3">
+        <div className="name text-left">
+          <h1 className="text-md font-semibold uppercase leading-3">
             Sulabh
           </h1>
-          <h1 className="text-lg font-semibold text-white uppercase">
+          <h1 className="text-md font-semibold uppercase">
             Shrestha
           </h1>
         </div>
@@ -42,7 +42,7 @@ function Header() {
           {navLinks.map(link => (
             <a
               key={link.title}
-              className="text-white uppercase text-sm font-semibold mt-6 border-b-2 border-dotted hover:border-solid border-slate-600 cursor-pointer"
+              className="uppercase text-sm font-semibold mt-6 border-b-2 border-dotted hover:border-solid border-slate-600 cursor-pointer"
             >
               {link.title}
             </a>
