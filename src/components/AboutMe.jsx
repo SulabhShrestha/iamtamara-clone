@@ -51,10 +51,10 @@ function AboutMe() {
             </div>
           </div>
 
-          <h2 className="mt-12 pb-8 border-b-2 border-dashed border-black">
+          <p className="mt-12 pb-8 border-b-2 border-dashed border-black">
             I’m Sulabh, a freelance UX designer based in Nepal. I craft
             accessible websites and mobile apps using tech for good.
-          </h2>
+          </p>
         </section>
       </>
     );
