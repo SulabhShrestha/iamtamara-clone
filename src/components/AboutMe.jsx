@@ -44,7 +44,7 @@ function AboutMe() {
 
   return (
     <>
-      <section className="slogan pb-6 border-b-2 mb-10 border-black border-dashed">
+      <section id="About" className="slogan pb-6 border-b-2 mb-10 border-black border-dashed">
         <h1 className="text-2xl">
           UX <span className={largeTextStyle}>DESIGN</span> FOR{" "}
           <span className={largeTextStyle}>GOOD</span>

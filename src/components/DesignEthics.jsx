@@ -20,7 +20,7 @@ function DesignEthics() {
   ];
 
   return (
-    <div className="design-ethics mb-12 pb-8">
+    <div id="Ethics" className="design-ethics mb-12 pb-8">
       <h1 className="text-left text-3xl border-black border-b-2 border-dashed inline-block float-left clear-both">
         Design <span className="font-semibold">ethics</span>
       </h1>
@@ -35,8 +35,8 @@ function DesignEthics() {
       </div>
 
       <div className="my-12 bg-blue-200 border-y-2 border-black py-6 text-md">
-        <span className="font-semibold">Did you know?</span> Accessibility concerns 87 millions of people
-        in the EU. That's 1 in 4 adults.
+        <span className="font-semibold">Did you know?</span> Accessibility
+        concerns 87 millions of people in the EU. That's 1 in 4 adults.
       </div>
     </div>
   );
