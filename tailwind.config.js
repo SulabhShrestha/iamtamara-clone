@@ -7,9 +7,8 @@ module.exports = {
       rotate: {
         65: "65deg",
       },
-      backgroundImage: {
-        'me': "url('/src/assets/me.jpeg')",
-      }
+      
+    
     },
   },
   plugins: [require("daisyui")],
